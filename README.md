@@ -1,7 +1,9 @@
 ![screeny](https://user-images.githubusercontent.com/52114506/122704146-ebf15d80-d207-11eb-8f8a-db81dca5beab.png)
 # Banano_RPC_Tester
 
-Uses Nano RPC wrapper on Banano Network!
+Uses .NET Nano RPC wrapper on Banano Network!
+
+This allows a .net developer to talk to BANANO Blockchain!
 
 Rowjelio, 6/20/2021
 most of this code is from Jerzy Stanislawski's DOT NANO project. He is an awesome guy and deserves 80% of the credit! I didnt even change the references of the namespace to make sure he gets most of the kudos here! He's a freakin genius! I did re compile them as .net framework 4.8 and added a windows form project the github for that is 
