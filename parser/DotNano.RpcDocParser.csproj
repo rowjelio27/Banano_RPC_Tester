@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <StartupObject></StartupObject>
+    <ApplicationIcon />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Markdig" Version="0.17.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\shared\DotNano.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DotNano.CodeGeneration">
+      <HintPath>..\codegen\DotNano.CodeGeneration\bin\Debug\net5.0\DotNano.CodeGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNano.RpcApi">
+      <HintPath>..\codegen\DotNano.CodeGeneration\bin\Debug\net5.0\DotNano.RpcApi.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
