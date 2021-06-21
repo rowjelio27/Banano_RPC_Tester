@@ -1,3 +1,4 @@
+![screeny](https://user-images.githubusercontent.com/52114506/122704146-ebf15d80-d207-11eb-8f8a-db81dca5beab.png)
 # Banano_RPC_Tester
 Uses Nano RPC wrapper on Banano Network!
 /// Rowjelio, 6/20/2021
@@ -12,3 +13,6 @@ Uses Nano RPC wrapper on Banano Network!
 I was using the banano tester node but it's been down, so the screenshots are from my personal node that I built.
 
 I can be found on Banano discord username rowjelio
+
+Donations? :)
+ban_1s4ujwgdpdguttoumme4w6fr7yicgj54i9pqaa6oz5smsyczakqj6838x6ki
